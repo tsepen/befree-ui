@@ -71,7 +71,6 @@
     }
   },
   "plugins": [
-    "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
@@ -81,5 +80,11 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  }
 }
