@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 function TestComponent() {
   return (
     <View>
-      <Text>Test befree ui!!</Text>
+      <Text>Test befree ui!</Text>
     </View>
   );
 }
