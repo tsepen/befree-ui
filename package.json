@@ -81,19 +81,5 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
-  "release": {
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm"
-    ],
-    "parserOpts": {
-      "mergePattern": "Merged PR .*:"
-    },
-    "branches": [
-      "master",
-      "next"
-    ]
-  }
+  "main": "dist/index.js"
 }
