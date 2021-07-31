@@ -81,5 +81,11 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  }
 }
