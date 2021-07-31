@@ -8,4 +8,6 @@
 
 // AppRegistry.registerComponent(appName, () => App);
 
+export * from './src/components';
+
 export {default} from './storybook';
