@@ -7,7 +7,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "build": "tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prestorybook": "rnstl",
